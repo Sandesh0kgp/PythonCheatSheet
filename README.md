@@ -196,6 +196,16 @@ chr(97)              # ASCII to char ('a')
 
 # Join Lists
 ''.join(['a','b'])   # Concatenate list elements
+
+s = "hello"
+print(s[0:2])   # "he"  → start=0, end=2 (takes characters at index 0 and 1)
+print(s[1:4])   # "ell" → start=1, end=4 (takes index 1,2,3)
+print(s[:3])    # "hel" → start=0 by default
+print(s[2:])    # "llo" → end till last by default
+print(s[::2])   # "hlo" → step=2 (every 2nd character)
+print(s[::-1])  # "olleh" → step=-1 (go backwards, so it reverses)
+
+
 ```
 
 # Built-in Functions
